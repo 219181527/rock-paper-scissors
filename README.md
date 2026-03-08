@@ -62,18 +62,29 @@ The rules of Rock Paper Scissors are:
 # 📂 Project Structure
 
 ```
-Rock-Paper-Scissors-Game
+rock-paper-scissors
 │
-├── node_modules/        # Installed project dependencies
-├── src/                 # Source files
+├── node_modules/          # Project dependencies (ignored by Git)
+├── screenshots/           # Screenshots of the application running
+│   └── image.png
 │
-├── ATTRIBUTIONS.md      # Asset and icon attributions
-├── index.html           # Main HTML file
-├── package-lock.json    # Dependency lock file
-├── package.json         # Project configuration and dependencies
-├── postcss.config.js    # PostCSS configuration
-├── README.md            # Project documentation
-└── vite.config.ts       # Vite configuration file
+├── src/                   # Source code for the React application
+│   ├── app/
+│   │   ├── components/    # Reusable UI components
+│   │   └── App.tsx        # Main application logic
+│   │
+│   ├── styles/            # Application styling
+│   │
+│   └── main.tsx           # Application entry point
+│
+├── index.html             # Main HTML file
+├── package.json           # Project dependencies and scripts
+├── package-lock.json      # Dependency lock file
+├── postcss.config.js      # PostCSS configuration
+├── vite.config.ts         # Vite configuration
+├── ATTRIBUTIONS.md        # Asset and icon attributions
+├── README.md              # Project documentation
+└── .gitignore             # Files excluded from Git tracking
 ```
 
 ---
