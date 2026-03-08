@@ -76,8 +76,6 @@ Rock-Paper-Scissors-Game
 └── vite.config.ts       # Vite configuration file
 ```
 
-```
-
 ---
 
 # ⚙️ Installation & Setup
