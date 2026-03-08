@@ -62,9 +62,6 @@ The rules of Rock Paper Scissors are:
 # 📂 Project Structure
 
 ```
-# 📂 Project Structure
-
-```
 Rock-Paper-Scissors-Game
 │
 ├── node_modules/        # Installed project dependencies
@@ -172,7 +169,7 @@ Open the URL in your browser to play the game.
 
 Example of the application running locally:
 
-![Game Screenshot](image.png)
+![Game Screenshot](screenshots/image.png)
 
 
 ---
